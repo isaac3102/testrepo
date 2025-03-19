@@ -30,7 +30,7 @@ This section lists general commands for base chat features.
 ```
 
 @username
-> Sends a **private** message to indicated user.
+> Sends a **private** message to the specified user.
 ```
 @<username> <message>
 ```
