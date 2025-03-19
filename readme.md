@@ -16,6 +16,7 @@ Our chat application features:
 
 ### General Commands	
 This section lists general commands for base chat features.  
+  
 @public
 > Sends a message to **all** users currently connected to the chat server.
 ```
@@ -55,7 +56,7 @@ Syntax:
 
 ### Group Commands
 Commands for group management.  
-
+  
 @groups
 > List **all** groups that the user is in.
 ```
