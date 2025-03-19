@@ -119,7 +119,6 @@ Commands for group management.
 | Daniel Soong Jia Kang | 2403358 | 3070568S | [SIT](2403358@sit.singaporetech.edu.sg) [UofG](3070568S@student.gla.ac.uk) |
 | Teo Zhi Kai | 2401566 | 3070661T | [SIT](2401566@sit.singaporetech.edu.sg) [UofG](3070661T@student.gla.ac.uk) |
 | Lai Yueyin Shyann | 2402456 | 3070689L | [SIT](2402456@sit.singaporetech.edu.sg) [UofG](3070689L@student.gla.ac.uk) |
- 
 | Isaac Lee Junqian | 2401144 | 3070635L | [SIT](2401144@sit.singaporetech.edu.sg) [UofG](3070635L@student.gla.ac.uk) |
 
 
