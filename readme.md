@@ -15,7 +15,7 @@ Our chat application features:
  3. Client will be prompted to enter a username and once successful, they will be able to access the chat server.
 
 ### General Commands	
-This section lists general commands for base chat features.
+This section lists general commands for base chat features.  
 @public
 > Sends a message to **all** users currently connected to the chat server.
 ```
@@ -23,88 +23,89 @@ This section lists general commands for base chat features.
 ```
 
 @names
-Lists the usernames of **all** users currently connected to the chat server.
+> Lists the usernames of **all** users currently connected to the chat server.
 ```
 @names
 ```
 
 @<username>
-Sends a **private** message to indicated user.
+> Sends a **private** message to indicated user.
 ```
 @<username> <message>
 ```
 
 @help
-Lists all available commands to the user.
+> Lists all available commands to the user.
 ```
 @help
 ```
 
 @quit
-Disconnects the user from the chat server.
+> Disconnects the user from the chat server.
 ```
 @quit
 ```
 
 @history
-Retrieves the user’s chat history.
+> Retrieves the user’s chat history.
 Syntax:
 ```
 @history
 ```
 
 ### Group Commands
+Commands for group management.  
 
 @groups
-List **all** groups that the user is in.
+> List **all** groups that the user is in.
 ```
 @groups
 ```
 
 @group set
-Creates a group with the given group name and usernames.
+> Creates a group with the given group name and usernames.
 ```
 @group set <group_name> <usernames>
 ```
 > Usernames should be separated with a space.
 
 @group send
-Sends a message to the specified group
+> Sends a message to the specified group
 ```
 @group send <group_name> <message>
 ```
 
 @group list 
-Lists all members and admin of the specified group
+> Lists all members and admin of the specified group
 ```
 @group list <group_name>
 ```
 
 @group leave
-Leaves the specified group
+> Leaves the specified group
 ```
 @group leave <group_name>
 ```
 
 @group delete
-Deletes the specified group
+> Deletes the specified group
 ```
 @group delete <group_name>
 ```
 
 @group add
-Adds a user to the indicated group
+> Adds a user to the indicated group  
+> (Admin only command)
 ```
 @group add <group_name> <username>
 ```
-> Admin only command
 
 @group kick
-Kicks a user from the specified group
+> Kicks a user from the specified group  
+> Admin only command
 ```
 @group kick <username> <group_name>
 ```
-> Admin only command
 
 
 
