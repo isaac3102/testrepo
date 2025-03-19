@@ -29,7 +29,7 @@ This section lists general commands for base chat features.
 @names
 ```
 
-@<username>
+@username
 > Sends a **private** message to indicated user.
 ```
 @<username> <message>
