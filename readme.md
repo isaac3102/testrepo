@@ -6,8 +6,8 @@ Our chat application features:
 -	Unique usernames
 -	Multiple user connectivity
 -	Global chat across all users
--	Private messaging between all users
--	Breakout rooms
+-	Private messaging between users
+-	Breakout rooms 
 
 ## Usage
  1. Execute`server. py`in the background.
