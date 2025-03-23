@@ -17,7 +17,7 @@ Our chat application features:
  2. Clients will execute`client.py`in command prompt to begin connection to the chat server.
  3. Client will be prompted to enter a username and once successful, they will be able to access the chat server.
  4. Client can open multiple command prompts to simulate multiple users
-  
+
 ### General Commands	
 This section lists general commands for base chat features.  
   
@@ -25,31 +25,31 @@ This section lists general commands for base chat features.
 > Sends a message to **all** users currently connected to the chat server.
 ```
 @public <message>
-```
+```  
 
 @names
 > Lists the usernames of **all** users currently connected to the chat server.
 ```
 @names
-```
+```  
 
 @username
 > Sends a **private** message to the specified user.
 ```
 @<username> <message>
-```
+```  
 
 @help
 > Lists all available commands to the user.
 ```
 @help
-```
+```  
 
 @quit
 > Disconnects the user from the chat server.
 ```
 @quit
-```
+```  
 
 @history
 > Retrieves the user’s chat history.
