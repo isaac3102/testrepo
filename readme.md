@@ -1,19 +1,23 @@
 # Group 46 – Chat Application
 Chat application written in Python using socket programming.
-
+> this README covers Program Features, Program Usage, Command Usage and Group Member Details
 ## Features 
 Our chat application features:
--	Unique usernames
--	Multiple user connectivity
--	Global chat across all users
--	Private messaging between users
--	Breakout rooms 
-
+-	Multiple User Connectivity
+-	Unique Usernames
+-	Global Chat across All Users
+-	Private Messaging between Users
+-	Private Groups
+-	Group Management
+-	User Chat History
+-	Group Administrator Roles
+  
 ## Usage
- 1. Execute`server. py`in the background.
- 2. Clients will execute`client. py`in command prompt to begin connection to the chat server.
+ 1. Execute`server.py`in the background.
+ 2. Clients will execute`client.py`in command prompt to begin connection to the chat server.
  3. Client will be prompted to enter a username and once successful, they will be able to access the chat server.
-
+ 4. Client can open multiple command prompts to simulate multiple users
+  
 ### General Commands	
 This section lists general commands for base chat features.  
   
@@ -90,13 +94,14 @@ Commands for group management.
 
 @group delete
 > Deletes the specified group
+> Admin only command
 ```
 @group delete <group_name>
 ```
 
 @group add
 > Adds a user to the indicated group  
-> (Admin only command)
+> Admin only command
 ```
 @group add <group_name> <username>
 ```
@@ -111,7 +116,7 @@ Commands for group management.
 
 
 
-## Group Members
+## Group Members Details
   
 | Member Name | SiT ID | UofG ID | Email |
 | --- | --- | --- | --- |
@@ -120,5 +125,6 @@ Commands for group management.
 | Teo Zhi Kai | 2401566 | 3070661T | [SIT](2401566@sit.singaporetech.edu.sg) [UofG](3070661T@student.gla.ac.uk) |
 | Lai Yueyin Shyann | 2402456 | 3070689L | [SIT](2402456@sit.singaporetech.edu.sg) [UofG](3070689L@student.gla.ac.uk) |
 | Isaac Lee Junqian | 2401144 | 3070635L | [SIT](2401144@sit.singaporetech.edu.sg) [UofG](3070635L@student.gla.ac.uk) |
+
 
 
